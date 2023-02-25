@@ -49,11 +49,12 @@ public class Main extends JFrame {
                 }
             }
         });
-
+        
         add(panel);
         setVisible(true);
         setResizable(false);
-
+        pack();
+        setLocationRelativeTo(null);
 
     }
 
